@@ -10,19 +10,12 @@
           <v-flex xs12 md6 v-for="(item,i) in items" :key="i">
             <div>
               <v-img
-                :src="item.src"
+                :src="item.img"
                 position="center"
                 cover>
               </v-img>
             </div>
           </v-flex>
-          <!-- <v-flex xs12 md6>
-            <div>
-              <v-img :src="item.src"
-                position="center" contain>
-              </v-img>
-            </div>
-          </v-flex> -->
           <v-divider></v-divider>
         </v-layout>
       </v-card>
@@ -50,9 +43,9 @@ export default {
 
     ],
     items: [
-      {title:"My bike",src: 'https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/77/776/7855/1/1/959274370/959274370_2_720x928.webp'},
-      {title:"My bike",src: 'https://www.voltes.eu/cdn/shop/files/bird-bike-stealth-black-1.png?v=1687364572'},
-      {title:"My bike",src: 'https://www.fujibikes.com/cdn/shop/products/2022_FUJI_JARI_11_MATTEBLACK_FRONT.png?v=1670262316&width=580'},
+      {title:"My bike",img: 'https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/77/776/7855/1/1/959274370/959274370_2_720x928.webp'},
+      {title:"My bike",img: 'https://www.voltes.eu/cdn/shop/files/bird-bike-stealth-black-1.png?v=1687364572'},
+      {title:"My bike",img: 'https://www.fujibikes.com/cdn/shop/products/2022_FUJI_JARI_11_MATTEBLACK_FRONT.png?v=1670262316&width=580'},
     ]
   }),
 }
