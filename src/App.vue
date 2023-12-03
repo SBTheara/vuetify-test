@@ -24,16 +24,16 @@
           app
         >
         <v-list-item >
-          <v-list-item-content>
-            <v-list-item-title>
-              <span class="text-h6 grey--text text--lighten-3 font-weight-bold">Movie</span>
-              <span class="text-h6 red--text font-weight-bold">App</span>
-            </v-list-item-title>
-            <v-list-item-subtitle class="grey--text text--lighten-3 font-weight-bold">
-              The best website movie in the pagoda
-            </v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
+            <v-list-item-content>
+              <v-list-item-title>
+                <span class="text-h6 grey--text text--lighten-3 font-weight-bold">Movie</span>
+                <span class="text-h6 red--text font-weight-bold">App</span>
+              </v-list-item-title>
+              <v-list-item-subtitle class="grey--text text--lighten-3 font-weight-bold">
+                The best website movie in the pagoda
+              </v-list-item-subtitle>
+            </v-list-item-content>
+          </v-list-item>
 
       <v-divider></v-divider>
         <v-list
@@ -87,20 +87,18 @@
         { title: 'Pre-fab homes', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12 },
         { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
         { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
-      
         { title: 'Pre-fab homes', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12 },
         { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
         { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
-      
         { title: 'Pre-fab homes', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12 },
         { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
         { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
       
       ],
       navItems: [
-          { title: 'Dashboard', icon: 'mdi-view-dashboard',to: "/about" },
-          { title: 'Photos', icon: 'mdi-image',to: "/" },
-          { title: 'About', icon: 'mdi-help-box',to: "/" },
+          { title: 'Dashboard', icon: 'mdi-view-dashboard',to: "/" },
+          { title: 'Top movie', icon: 'mdi-movie',to: "/movie" },
+          { title: 'About', icon: 'mdi-help-box',to: "/about" },
       ],
     
     }),
