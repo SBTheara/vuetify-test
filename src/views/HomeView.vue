@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <v-carousel hide-delimiters>
+    <v-carousel hide-delimiters class="d-flex justify-center" interval style="width: 100vw;">
       <v-carousel-item v-for="(item, i) in cards" :key="i" :src="item.src"></v-carousel-item>
     </v-carousel>
     <v-spacer></v-spacer>
